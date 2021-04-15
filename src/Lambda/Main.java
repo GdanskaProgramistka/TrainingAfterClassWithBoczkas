@@ -1,3 +1,5 @@
+package Lambda;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -9,7 +11,7 @@ public class Main {
 
     //Krzykacz ma krzyknać wielokrotnie:
         Krzykacz krzykaczWielokrotny = () -> {
-            for (int i = 0; i < 4; i++) {
+            for (int i = 1; i < 4; i++) {
                 System.out.println("Krzyczę po raz: " + i);
             }
         };
